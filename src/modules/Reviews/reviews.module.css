@@ -1,0 +1,20 @@
+.container {
+    padding: 30px;
+}
+
+.list {
+    list-style: none;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.87;
+}
+
+.author {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.87;
+}
