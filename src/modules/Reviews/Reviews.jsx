@@ -41,19 +41,18 @@ const Reviews = () => {
     </li>
   ));
 
-  const { loading, error } = reviews;
+  const { loading, error, items } = reviews;
 
   return (
     <div className={s.container}>
+      <h3 className={s.title}>Reviews</h3>
       {loading && <p>...loading</p>}
       {error && (
         <p>
           Sorry, we don't have info about this film. Please, try again later 🖤
         </p>
       )}
-
-      <h3 className={s.title}>Reviews</h3>
-      <ul className={s.list}>{elements}</ul>
+      {items && <ul className={s.list}>{elements}</ul>}
     </div>
   );
 };
