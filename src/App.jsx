@@ -3,11 +3,9 @@ import { Route, Routes, Navigate } from "react-router-dom";
 
 import HeaderMenu from "modules/HeaderMenu";
 
-const HomePage = lazy(() => import("./components/pages/HomePage"));
-const MoviesPage = lazy(() => import("./components/pages/MoviesPage"));
-const MoviesDetailsPage = lazy(() =>
-  import("./components/pages/MoviesDetailsPage")
-);
+const HomePage = lazy(() => import("./pages/HomePage"));
+const MoviesPage = lazy(() => import("./pages/MoviesPage"));
+const MoviesDetailsPage = lazy(() => import("./pages/MoviesDetailsPage"));
 const Cast = lazy(() => import("./modules/Cast"));
 const Reviews = lazy(() => import("./modules/Reviews"));
 

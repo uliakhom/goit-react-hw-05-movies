@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import noImg from "../../../../images/noimage.png";
+import noImg from "../../../images/noimage.png";
 
 import s from "./moviesPageInfo.module.css";
 

@@ -4,7 +4,7 @@ import { useParams, useLocation, Link, Outlet } from "react-router-dom";
 import MoviesPageInfo from "./MoviesPageInfo";
 import GoBackButton from "shared/components/GoBackButton";
 
-import { getMovieById } from "../../../shared/services/movies";
+import { getMovieById } from "../../shared/services/movies";
 import s from "./moviesDetailsPage.module.css";
 
 const MoviesDetailsPage = () => {
